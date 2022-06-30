@@ -164,3 +164,62 @@
     }
     background-color: whitesmoke
 }
+@media only screen and (min-width: 300px) and (max-width: 999px){
+    #business{
+        .container{
+            .row{
+                .navbar{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 1075px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}      
+@media only screen and (min-width: 300px) and (max-width: 871px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}        
+@media only screen and (min-width: 300px) and (max-width: 778px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
